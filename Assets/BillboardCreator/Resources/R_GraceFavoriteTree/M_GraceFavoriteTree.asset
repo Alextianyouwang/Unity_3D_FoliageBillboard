@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_GraceFavoriteTree
+  m_Shader: {fileID: 4800000, guid: 6d6a4c66f1ceb1b4fb329bb457017796, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 470fdc3bcea15614b802706c271a2206, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Blend: 1
+    - _DepthX: 1
+    - _DepthY: 1
+    - _DepthZ: 1
+    - _Detail: 1
+    - _Precision: 0.161
+    - _Radius: 1
+    - _SphereNormalSteps: 10
+    - _ToonScale: 0.5
+    m_Colors:
+    - _BoundSize: {r: 2.6940603, g: 5.8196263, b: 2.9629097, a: 0}
+    - _Offset: {r: 0.03783655, g: 2.9017284, b: -0.0047779083, a: 0}
+    - _SOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _Slice_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _UV_X_0: {r: 0.37728092, g: 1, b: 0, a: 0}
+    - _UV_X_1: {r: 0.37728092, g: 0.5, b: 0, a: 0}
+    - _UV_X_3: {r: 0.12271908, g: 1, b: 0, a: 0}
+    - _UV_Y_0: {r: 0.47731543, g: 0.5, b: 0, a: 0}
+    - _UV_Y_1: {r: 0.47731543, g: 0, b: 0, a: 0}
+    - _UV_Y_3: {r: 0.022684574, g: 0.5, b: 0, a: 0}
+    - _UV_Z_0: {r: 0.86573166, g: 0.5, b: 0, a: 0}
+    - _UV_Z_1: {r: 0.86573166, g: 0, b: 0, a: 0}
+    - _UV_Z_3: {r: 0.63426834, g: 0.5, b: 0, a: 0}
+  m_BuildTextureStacks: []
