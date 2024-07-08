@@ -190,7 +190,7 @@
 
 			float3 surfaceNormal = float3(changeX, changeY, changeZ);
 
-			//float3 worldNormal= mul(unity_ObjectToWorld, float4(surfaceNormal, 0)).xyz;
+			float3 worldNormal= mul(unity_ObjectToWorld, float4(surfaceNormal, 0)).xyz;
 			return normalize(surfaceNormal);
 		}
 		float sphereSDF(float3 pos)
@@ -251,6 +251,7 @@
 			sphereCol = sphereNormal(sphereSamplePoint);
 			normalize(col);
 			normalize(sphereCol);
+			
 
 			fixed4 displacedC = tex2D(_MainTex,GetUV(samplePoint));
 			fixed4 c = tex2D ( _MainTex, IN.uv_MainTex);

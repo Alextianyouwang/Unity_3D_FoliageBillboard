@@ -69,7 +69,7 @@ Material:
     m_Ints:
     - _SphereNormalSteps: 1
     m_Floats:
-    - _Blend: 0.3
+    - _Blend: 1
     - _BumpScale: 1
     - _Cutoff: 1
     - _Depth: 14.33
@@ -88,7 +88,7 @@ Material:
     - _Mode: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Precision: 0.229
+    - _Precision: 0.22
     - _Radius: 1
     - _SOffset: -0.97
     - _SmoothnessTextureChannel: 0
@@ -134,13 +134,13 @@ Material:
     - _UV_Z_4Y: 0
     - _ZWrite: 1
     m_Colors:
-    - _BoundSize: {r: 2.6940608, g: 5.8196263, b: 2.9629083, a: 0}
+    - _BoundSize: {r: 2.6940608, g: 5.8196263, b: 2.9629078, a: 0}
     - _Center: {r: 0, g: 0, b: 0, a: 1}
     - _CenterPosition: {r: 0.01, g: 0.08, b: 0.55, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Offset: {r: 0.037836492, g: 2.9017284, b: -0.0047779083, a: 0}
-    - _SOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _Offset: {r: 0.03783643, g: 2.9017284, b: -0.0047779083, a: 0}
+    - _SOffset: {r: 0, g: -0.56, b: 0, a: 0}
     - _Slice_Offset: {r: 0, g: 0, b: 0, a: 0}
     - _UV_X_0: {r: 0.37728086, g: 1, b: 0, a: 0}
     - _UV_X_1: {r: 0.37728086, g: 0.5, b: 0, a: 0}
